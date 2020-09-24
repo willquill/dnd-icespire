@@ -64,6 +64,10 @@ Add the remote repo using the Host name from the config file above and use youru
 
 More info [here](https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions)
 
+### Add a CNAME if you want a custom domain
+
+```echo 'icespire.rakara.net' >> docs/CNAME```
+
 ### Push to your master branch for good measure
 
 ```git add -A
@@ -75,27 +79,18 @@ git push -u origin master
 
 ```mkdocs gh-deploy```
 
-## Update gh-pages branch
+## Notes about updating site after initial deployment
 
-After the initial deployment, you cannot use gh-deploy again.
+Never modify files directly within the ```site``` directory.
 
-You will need to use remove the ```site``` directory and run ```mkdocs build``` again, then do a few more things. See below:
+To make changes to your website after the initial deploy:
 
-(Instructions sourced from [here](https://blog.bloomca.me/2017/12/15/how-to-push-folder-to-github-pages.html))
+- Modify your yml and md files as needed.
 
-```rm -rf site```
+- ```mkdocs gh-deploy```
 
-```mkdocs build```
+Breakdown of what ```mkdocs gh-deploy``` does:
 
-```cd site```
+- Repopulates the ```site``` directory with a static site generated from your md and yml files.
 
-```git add .```
-
-```git commit -m "Initial commit"```
-
-```git remote add origin git@github-as-willquill:willquill/dnd-icespire.git```
-
-Finally, force push this "sub-repo", i.e. just the contents of the ```site``` directory, to the gh-pages branch:
-
-```git push --force origin master:gh-pages```
-
+- Pushes the contents of the ```site``` directory into the gh-pages branch on Github.
