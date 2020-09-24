@@ -4,10 +4,10 @@
 
 - [Finn](people/finn.md)
 - [Pulse](people/pulse.md)
+- [Robo Dan](people/robodan.md)
 - [Smogg Fracks](people/smogg.md)
 - [Wyatt](people/wyatt.md)
 - [Zim Wicketbooster](people/zim.md)
-- [Turd Robot. Turd...turdobot. Turdbot?](people/turd.md)
 
 ## Sessions
 
