@@ -52,8 +52,7 @@ Go to github and create a public repository.
 
 Add the remote repo using the Host name from the config file above and use youruser/yourrepo.git
 
-```git remote add origin git@github-as-willquill:willquill/dnd-icespire.git
-```
+```git remote add origin git@github-as-willquill:willquill/dnd-icespire.git```
 
 ### If you've enabled e-mail privacy in Github
 
@@ -61,7 +60,7 @@ Add the remote repo using the Host name from the config file above and use youru
 
 2. Copy the Github-provided email on that page and paste the following into your terminal:
 
-git config user.email theid+youruser@users.noreply.github.com
+```git config user.email theid+youruser@users.noreply.github.com```
 
 More info [here](https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions)
 
