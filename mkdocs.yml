@@ -1,0 +1,18 @@
+site_name: Dragon of Icespire Peak
+nav: 
+    - Home: index.md
+    - Game: game.md
+    - Players:
+      - Finn: people/finn.md
+      - Pulse: people/pulse.md
+      - Smogg Fracks: people/smogg.md
+      - Wyatt: people/wyatt.md
+      - Zim Wicketbooster: people/zim.md
+      - Turd Robot: people/turd.md
+    - Sessions:
+      - 20200921: sessions/20200921.md
+theme:
+    name: material
+    highlightjs: true
+    nav_style: dark
+    
