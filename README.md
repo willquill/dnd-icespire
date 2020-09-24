@@ -74,3 +74,23 @@ git push -u origin master
 ### Deploy
 
 ```mkdocs gh-deploy```
+
+## Update gh-pages branch
+
+After the initial deployment, you cannot use gh-deploy again.
+
+You will need to use remove the ```site``` directory and run ```mkdocs build``` again, then do a few more things. See below:
+
+(Instructions sourced from [here](https://blog.bloomca.me/2017/12/15/how-to-push-folder-to-github-pages.html))
+
+```rm -rf site```
+```mkdocs build```
+```cd site```
+```git add .```
+```git commit -m "Initial commit"```
+```git remote add origin git@github-as-willquill:willquill/dnd-icespire.git```
+
+Finally, force push this "sub-repo", i.e. just the contents of the ```site``` directory, to the gh-pages branch:
+
+```git push --force origin master:gh-pages```
+
