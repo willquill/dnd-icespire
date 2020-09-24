@@ -11,4 +11,4 @@
 
 ## Sessions
 
-[2020-09-21](sessions/20200921.md): The Manticore
+2020-09-21: [Manticore](sessions/20200921.md)

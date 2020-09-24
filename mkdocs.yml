@@ -10,7 +10,7 @@ nav:
       - Zim Wicketbooster: people/zim.md
       - Turd Robot: people/turd.md
     - Sessions:
-      - 20200921: sessions/20200921.md
+      - '20200921: Manticore': sessions/20200921.md
 theme:
     name: material
     highlightjs: true
