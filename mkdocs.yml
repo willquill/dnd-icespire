@@ -11,6 +11,7 @@ nav:
       - Zim Wicketbooster: people/zim.md
     - Sessions:
       - '20200921: Manticore': sessions/20200921.md
+      - '20200930: Mimic': sessions/20200930.md
 theme:
     name: material
     highlightjs: true

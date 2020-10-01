@@ -12,3 +12,4 @@
 ## Sessions
 
 2020-09-21: [Manticore](sessions/20200921.md)
+2020-09-30: [Mimic](sessions/20200930.md)
