@@ -68,6 +68,8 @@ More info [here](https://stackoverflow.com/questions/43378060/meaning-of-the-git
 
 ```echo 'icespire.rakara.net' >> docs/CNAME```
 
+More info on custom domain [here](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a)
+
 ### Push to your master branch for good measure
 
 ```git add -A
