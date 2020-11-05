@@ -2,6 +2,8 @@
 
 ## Players
 
+- [Dervish MacChunkin](people/dervish.md)
+
 - [Finn](people/finn.md)
 
 - [Pulse](people/pulse.md)
@@ -23,3 +25,5 @@
 2020-10-12: [Ranch I](sessions/20201012.md)
 
 2020-10-21: [Ranch II](sessions/20201021.md)
+
+2020-11-04: [Crab](sessions/20201104.md)

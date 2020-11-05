@@ -15,6 +15,7 @@ nav:
       - '20200930: Mimic': sessions/20200930.md
       - '20201012: Ranch I': sessions/20201012.md
       - '20201021: Ranch II': sessions/20201021.md
+      - '20201104: Crab': sessions/20201104.md
 theme:
     name: material
     highlightjs: true
