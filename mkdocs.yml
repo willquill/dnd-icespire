@@ -3,6 +3,7 @@ nav:
     - Home: index.md
     - Game: game.md
     - Players:
+      - Dervish: people/dervish.md
       - Finn: people/finn.md
       - Pulse: people/pulse.md
       - Robo Dan: people/robodan.md
