@@ -27,3 +27,5 @@
 2020-10-21: [Ranch II](sessions/20201021.md)
 
 2020-11-04: [Crab](sessions/20201104.md)
+
+2020-12-02: [Lighthouse](sessions/20201202.md)
