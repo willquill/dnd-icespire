@@ -18,7 +18,9 @@
 
 ## Sessions
 
-2020-12-02: [Lighthouse](sessions/20201202.md) (**LATEST**)
+2021-01-14: [Forgery](sessions/20210114.md) (**LATEST**)
+
+2020-12-02: [Lighthouse](sessions/20201202.md)
 
 2020-11-04: [Crab](sessions/20201104.md)
 
